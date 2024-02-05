@@ -1,0 +1,13 @@
+.{
+    .name = "winpthreads",
+    .version = "0.0.1",
+    .paths = .{
+        ".",
+    },
+    .dependencies = .{
+        .winpthreads_source = .{
+            .url = "https://github.com/mingw-w64/mingw-w64/archive/1415ff7f9b835e9ea39864c9625ec6fb72682918.tar.gz",
+            .hash = "122031810ac73e7901c89fff9bdb65d942bab8e5b1e2bc9941768a57491df1454209",
+        },
+    },
+}
